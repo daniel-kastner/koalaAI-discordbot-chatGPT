@@ -1,10 +1,10 @@
-# discordbot-core-with-gpt3
+# koalaAI-discordbot-chatGPT
 ![image](https://user-images.githubusercontent.com/99447017/212478345-092e8fde-6b68-4854-838e-2985a606d285.png)
 
 This repository contains the source code for a Discordbot Core with GPT3 integration. This Discordbot Core is designed to use the GPT-3 API provided by OpenAI to 
 generate natural-sounding messages from user input. Using the GPT-3 API, the Discordbot Core can understand natural language input and generate appropriate responses. 
 
-This repository starts now and will grow by time. Due to the modular architecture, SLASH-Commands can easyli be added. 
+This repository starts now and will grow by time. Due to the modular architecture, SLASH-Commands can be added. 
 
 Website: https://www.daniel-kastner.com
 
