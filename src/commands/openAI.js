@@ -46,12 +46,12 @@ module.exports = {
         console.log(`⁜-------- | ${interaction.user.tag}: ${prompt}`)
 
 
-        let response;                                        // calling the api (ask()) and store the results in const reply
+        let response;                                       // calling the api (ask()) and store the results in const reply
         try {
-            response = await openai.createCompletion({    // creating the request and send it
+            response = await openai.createCompletion({      // creating the request and send it
             model: "text-davinci-003",                      // ai model eg: text-davinci-001, text-davinci-002, text-davinci-003 
             prompt,                                         // the task for the AI to work with
-            temperature: 0.2,
+            temperature: 0.2,                               // cold (0) = scientific  hot (1) = creative choose between
             max_tokens: 4000,                               // text-davinci-003 provides max 4000 tokens
         });
         console.log('⁜-------- | Done, sending relpy.');
