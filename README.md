@@ -6,7 +6,7 @@ generate natural-sounding messages from user input. Using the GPT-3 API, the Dis
 
 This repository starts now and will grow by time. Due to the modular architecture, SLASH-Commands can be added. 
 
-Website: https://www.daniel-kastner.com
+
 
 ### Tree
 - `src`
